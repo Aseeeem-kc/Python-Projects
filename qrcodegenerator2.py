@@ -1,5 +1,15 @@
+# generating simple qr code
+
+# import qrcode as qr
+# 
+# img = qr.make("https://www.instagram.com/aseeeem_12/")
+# 
+# img.save("insta-profile.png")
+
+
+
+# qr code with modifications
 import qrcode as qr
-from PIL import Image
 
 my_qr = qr.QRCode(version=1, 
                   error_correction=qr.constants.ERROR_CORRECT_H, 
